@@ -1,0 +1,21 @@
+body{
+    background-color: lightpink;
+}
+
+
+
+.container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+div.gallery{
+    margin: 10px;
+    
+}
+div.img{
+    width: 50%;
+    height: 200px;
+}
+div img:hover{
+    border: 2px solid  salmon;
+}
